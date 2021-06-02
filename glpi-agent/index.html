@@ -1,0 +1,13 @@
+---
+layout: nightly
+title: GLPI-Agent Nightly Builds
+description: Here you can download latest GLPI-Agent nightly builds
+---
+
+          {% for file in site.data.glpi-agent %}
+            <tr>
+              <td><a href="{{ file.name }}">{{ file.name }}</a></td>
+              <td>{{ file.size }}</td>
+              <td>{{ file.date }}</td>
+            </tr>
+          {% endfor %}

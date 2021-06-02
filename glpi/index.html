@@ -1,0 +1,13 @@
+---
+layout: nightly
+title: GLPI Nightly Builds
+description: Here you can download latest GLPI nightly builds
+---
+
+          {% for file in site.data.glpi %}
+            <tr>
+              <td><a href="{{ file.name }}">{{ file.name }}</a></td>
+              <td>{{ file.size }}</td>
+              <td>{{ file.date }}</td>
+            </tr>
+          {% endfor %}

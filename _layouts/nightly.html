@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.24/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.24/datatables.min.js"></script>
+  </head>
+  <body>
+    <header class="page-header" role="banner" style="padding:1rem">
+      <h1 class="project-name">{{ page.title }}</h1>
+      <h2 class="project-tagline">{{ page.description }}</h2>
+    </header>
+    <main id="content" class="main-content" role="main">
+      <table id="nightly" class="display" style="width:100%">
+        <thead>
+          <tr>
+            <th>File name</th>
+            <th>Size</th>
+            <th>Date Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ content }}
+        </tbody>
+      </table>
+    </main>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#nightly').DataTable( {
+    "paging":   false,
+    "order":    [[ 2, "desc" ]],
+    "columnDefs": [
+      { "width": "60%", "targets": 0 },
+      { className: "dt-right", "targets": [ 1,2 ] }
+    ]
+  } );
+} );
+</script>
+  </body>
+</html>
