@@ -54,5 +54,17 @@ $(document).ready(function() {
   } );
 } );
 </script>
+  <footer>
+    {% if page.dir != "/glpi/" %}
+      <a href="/glpi/">GLPI nightly builds</a>
+    {% else %}
+      <a href="{{ site.github.owner_url }}/glpi">GLPI repository</a>
+    {% endif %}
+    {% if page.dir != "/glpi-agent/" %}
+      <a href="/glpi-agent/">GLPI Agent nightly builds</a>
+    {% else %}
+      <a href="{{ site.github.owner_url }}/glpi-agent">GLPI Agent repository</a>
+    {% endif %}
+  </footer>
   </body>
 </html>
