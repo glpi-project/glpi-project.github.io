@@ -4,10 +4,35 @@ title: GLPI-Agent Nightly Builds
 description: Here you can download latest GLPI-Agent nightly builds
 ---
 
+      <table id="nightly" class="display" style="width:100%">
+        <thead>
+          <tr>
+            <th>File name</th>
+            <th>Type</th>
+            <th>Size</th>
+            <th>Date Time</th>
+          </tr>
+        </thead>
+        <tbody>
           {% for file in site.data.glpi-agent %}
             <tr>
               <td><a href="{{ file.name }}">{{ file.name }}</a></td>
+              <td>{{ file.type }}</td>
               <td>{{ file.size }}</td>
               <td>{{ file.date }}</td>
             </tr>
           {% endfor %}
+        </tbody>
+      </table>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#nightly').DataTable( {
+    "paging":   false,
+    "order":    [[ 3, "desc" ]],
+    "columnDefs": [
+      { "width": "60%", "targets": 0 },
+      { className: "dt-right", "targets": [ 1,2 ] }
+    ]
+  } );
+} );
+</script>

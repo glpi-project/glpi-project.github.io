@@ -29,18 +29,7 @@
     </header>
     <main id="content" class="main-content" role="main">
       <h2 class="project-tagline">{{ page.description }}</h2>
-      <table id="nightly" class="display" style="width:100%">
-        <thead>
-          <tr>
-            <th>File name</th>
-            <th>Size</th>
-            <th>Date Time</th>
-          </tr>
-        </thead>
-        <tbody>
           {{ content }}
-        </tbody>
-      </table>
       <hr />
       <footer>
         <dl>
@@ -57,17 +46,5 @@
         </dl>
       </footer>
     </main>
-<script type="text/javascript">
-$(document).ready(function() {
-  $('#nightly').DataTable( {
-    "paging":   false,
-    "order":    [[ 2, "desc" ]],
-    "columnDefs": [
-      { "width": "60%", "targets": 0 },
-      { className: "dt-right", "targets": [ 1,2 ] }
-    ]
-  } );
-} );
-</script>
   </body>
 </html>
