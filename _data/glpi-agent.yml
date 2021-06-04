@@ -1,3 +1,95 @@
+- name: glpi-agent_1.0-git5a9f6a7f_amd64.snap
+  size: 17629184
+  date: 2021-06-04 07:27:46 UTC
+  type: linux
+- name: glpi-agent_1.0-git5a9f6a7f_all.deb
+  size: 388684
+  date: 2021-06-04 07:27:46 UTC
+  type: deb
+- name: glpi-agent-1.0-git5a9f6a7f.noarch.rpm
+  size: 1034922
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-cron-1.0-git5a9f6a7f.noarch.rpm
+  size: 8151
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-task-collect-1.0-git5a9f6a7f.noarch.rpm
+  size: 11495
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-task-collect_1.0-git5a9f6a7f_all.deb
+  size: 5764
+  date: 2021-06-04 07:27:46 UTC
+  type: deb
+- name: glpi-agent-task-deploy-1.0-git5a9f6a7f.noarch.rpm
+  size: 39561
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-task-deploy_1.0-git5a9f6a7f_all.deb
+  size: 23108
+  date: 2021-06-04 07:27:46 UTC
+  type: deb
+- name: glpi-agent-task-esx-1.0-git5a9f6a7f.noarch.rpm
+  size: 21392
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-task-esx_1.0-git5a9f6a7f_all.deb
+  size: 8096
+  date: 2021-06-04 07:27:46 UTC
+  type: deb
+- name: glpi-agent-task-network-1.0-git5a9f6a7f.noarch.rpm
+  size: 190087
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-task-network_1.0-git5a9f6a7f_all.deb
+  size: 49016
+  date: 2021-06-04 07:27:46 UTC
+  type: deb
+- name: glpi-agent-task-wakeonlan-1.0-git5a9f6a7f.noarch.rpm
+  size: 12862
+  date: 2021-06-04 07:27:46 UTC
+  type: rpm
+- name: glpi-agent-1.0-git5a9f6a7f-with-snap-linux-installer.pl
+  size: 19469037
+  date: 2021-06-04 07:27:46 UTC
+  type: linux
+- name: glpi-agent-1.0-git5a9f6a7f-linux-installer.pl
+  size: 1839783
+  date: 2021-06-04 07:27:46 UTC
+  type: linux
+- name: GLPI-Agent-1.0-git5a9f6a7f_x86_64.pkg
+  size: 17289438
+  date: 2021-06-04 07:27:46 UTC
+  type: macosx
+- name: GLPI-Agent-1.0-git5a9f6a7f_x86_64.dmg
+  size: 17082173
+  date: 2021-06-04 07:27:46 UTC
+  type: macosx
+- name: GLPI-Agent-1.0-git5a9f6a7f_arm64.pkg
+  size: 22757482
+  date: 2021-06-04 07:27:46 UTC
+  type: macosx
+- name: GLPI-Agent-1.0-git5a9f6a7f_arm64.dmg
+  size: 23486603
+  date: 2021-06-04 07:27:46 UTC
+  type: macosx
+- name: GLPI-Agent-1.0-git5a9f6a7f-x86.zip
+  size: 20345536
+  date: 2021-06-04 07:27:46 UTC
+  type: win32
+- name: GLPI-Agent-1.0-git5a9f6a7f-x86.msi
+  size: 14742072
+  date: 2021-06-04 07:27:46 UTC
+  type: win32
+- name: GLPI-Agent-1.0-git5a9f6a7f-x64.zip
+  size: 18974056
+  date: 2021-06-04 07:27:46 UTC
+  type: win32
+- name: GLPI-Agent-1.0-git5a9f6a7f-x64.msi
+  size: 13439508
+  date: 2021-06-04 07:27:46 UTC
+  type: win32
 - name: glpi-agent_1.0-git112848e4_amd64.snap
   size: 17629184
   date: 2021-06-04 07:27:36 UTC
@@ -94,6 +186,14 @@
   size: 17629184
   date: 2021-06-04 07:27:35 UTC
   type: linux
+- name: glpi-agent-1.0-gitc780545e.noarch.rpm
+  size: 1034935
+  date: 2021-06-04 07:27:35 UTC
+  type: rpm
+- name: glpi-agent-cron-1.0-gitc780545e.noarch.rpm
+  size: 8149
+  date: 2021-06-04 07:27:35 UTC
+  type: rpm
 - name: glpi-agent-task-collect-1.0-gitc780545e.noarch.rpm
   size: 11495
   date: 2021-06-04 07:27:35 UTC
@@ -138,14 +238,6 @@
   size: 19468956
   date: 2021-06-04 07:27:35 UTC
   type: linux
-- name: glpi-agent-1.0-gitc780545e.noarch.rpm
-  size: 1034935
-  date: 2021-06-04 07:27:35 UTC
-  type: rpm
-- name: glpi-agent-cron-1.0-gitc780545e.noarch.rpm
-  size: 8149
-  date: 2021-06-04 07:27:35 UTC
-  type: rpm
 - name: glpi-agent-1.0-gitc780545e-linux-installer.pl
   size: 1839702
   date: 2021-06-04 07:27:35 UTC
@@ -182,95 +274,95 @@
   size: 13439508
   date: 2021-06-04 07:27:35 UTC
   type: win32
-- name: GLPI-Agent-1.0-git5a9f6a7f-x86.zip
-  size: 20345536
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1-x86.zip
+  size: 20345535
+  date: 2021-06-04 12:09:02 UTC
   type: win32
-- name: GLPI-Agent-1.0-git5a9f6a7f-x86.msi
+- name: GLPI-Agent-1.0-gitf37133c1-x86.msi
   size: 14742072
-  date: 2021-06-04 07:27:46 UTC
+  date: 2021-06-04 12:09:02 UTC
   type: win32
-- name: GLPI-Agent-1.0-git5a9f6a7f-x64.zip
-  size: 18974056
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1-x64.zip
+  size: 18974057
+  date: 2021-06-04 12:09:02 UTC
   type: win32
-- name: GLPI-Agent-1.0-git5a9f6a7f-x64.msi
-  size: 13439508
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1-x64.msi
+  size: 13435412
+  date: 2021-06-04 12:09:02 UTC
   type: win32
-- name: GLPI-Agent-1.0-git5a9f6a7f_x86_64.pkg
-  size: 17289438
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1_x86_64.pkg
+  size: 17289447
+  date: 2021-06-04 12:09:02 UTC
   type: macosx
-- name: GLPI-Agent-1.0-git5a9f6a7f_x86_64.dmg
-  size: 17082173
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1_x86_64.dmg
+  size: 17081788
+  date: 2021-06-04 12:09:02 UTC
   type: macosx
-- name: GLPI-Agent-1.0-git5a9f6a7f_arm64.pkg
-  size: 22757482
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1_arm64.dmg
+  size: 23518991
+  date: 2021-06-04 12:09:02 UTC
   type: macosx
-- name: GLPI-Agent-1.0-git5a9f6a7f_arm64.dmg
-  size: 23486603
-  date: 2021-06-04 07:27:46 UTC
+- name: GLPI-Agent-1.0-gitf37133c1_arm64.pkg
+  size: 22757435
+  date: 2021-06-04 12:09:02 UTC
   type: macosx
-- name: glpi-agent_1.0-git5a9f6a7f_amd64.snap
+- name: glpi-agent_1.0-gitf37133c1_amd64.snap
   size: 17629184
-  date: 2021-06-04 07:27:46 UTC
+  date: 2021-06-04 12:09:02 UTC
   type: linux
-- name: glpi-agent_1.0-git5a9f6a7f_all.deb
-  size: 388684
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent_1.0-gitf37133c1_all.deb
+  size: 388640
+  date: 2021-06-04 12:09:02 UTC
   type: deb
-- name: glpi-agent-task-network_1.0-git5a9f6a7f_all.deb
-  size: 49016
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-network_1.0-gitf37133c1_all.deb
+  size: 49012
+  date: 2021-06-04 12:09:02 UTC
   type: deb
-- name: glpi-agent-task-esx_1.0-git5a9f6a7f_all.deb
-  size: 8096
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-esx_1.0-gitf37133c1_all.deb
+  size: 8100
+  date: 2021-06-04 12:09:02 UTC
   type: deb
-- name: glpi-agent-task-deploy_1.0-git5a9f6a7f_all.deb
-  size: 23108
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-collect_1.0-gitf37133c1_all.deb
+  size: 5760
+  date: 2021-06-04 12:09:02 UTC
   type: deb
-- name: glpi-agent-task-collect_1.0-git5a9f6a7f_all.deb
-  size: 5764
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-deploy_1.0-gitf37133c1_all.deb
+  size: 23100
+  date: 2021-06-04 12:09:02 UTC
   type: deb
-- name: glpi-agent-task-network-1.0-git5a9f6a7f.noarch.rpm
-  size: 190087
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-wakeonlan-1.0-gitf37133c1.noarch.rpm
+  size: 12859
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-task-wakeonlan-1.0-git5a9f6a7f.noarch.rpm
-  size: 12862
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-network-1.0-gitf37133c1.noarch.rpm
+  size: 190082
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-task-esx-1.0-git5a9f6a7f.noarch.rpm
-  size: 21392
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-esx-1.0-gitf37133c1.noarch.rpm
+  size: 21391
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-task-deploy-1.0-git5a9f6a7f.noarch.rpm
-  size: 39561
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-1.0-gitf37133c1.noarch.rpm
+  size: 1034927
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-task-collect-1.0-git5a9f6a7f.noarch.rpm
-  size: 11495
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-deploy-1.0-gitf37133c1.noarch.rpm
+  size: 39558
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-1.0-git5a9f6a7f.noarch.rpm
-  size: 1034922
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-task-collect-1.0-gitf37133c1.noarch.rpm
+  size: 11494
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-cron-1.0-git5a9f6a7f.noarch.rpm
-  size: 8151
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-cron-1.0-gitf37133c1.noarch.rpm
+  size: 8150
+  date: 2021-06-04 12:09:02 UTC
   type: rpm
-- name: glpi-agent-1.0-git5a9f6a7f-with-snap-linux-installer.pl
-  size: 19469037
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-1.0-gitf37133c1-with-snap-linux-installer.pl
+  size: 19468972
+  date: 2021-06-04 12:09:02 UTC
   type: linux
-- name: glpi-agent-1.0-git5a9f6a7f-linux-installer.pl
-  size: 1839783
-  date: 2021-06-04 07:27:46 UTC
+- name: glpi-agent-1.0-gitf37133c1-linux-installer.pl
+  size: 1839718
+  date: 2021-06-04 12:09:02 UTC
   type: linux
