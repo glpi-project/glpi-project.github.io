@@ -6,22 +6,25 @@ title: GLPI-Agent Nightly Builds
 # GLPI-Agent v1.0-gitf37133c1 nightly build
 
 ## Windows
+
 Arch | Windows installer | Windows portable archive
----|:---|:---
+--- |:--- |:---
 64 bits | [GLPI-Agent-1.0-gitf37133c1-x64.msi](GLPI-Agent-1.0-gitf37133c1-x64.msi) | [glpi-agent-1.0-gitf37133c1-x64.zip](glpi-agent-1.0-gitf37133c1-x64.zip)
 32 bits | [GLPI-Agent-1.0-gitf37133c1-x86.msi](GLPI-Agent-1.0-gitf37133c1-x86.msi) | [glpi-agent-1.0-gitf37133c1-x86.zip](glpi-agent-1.0-gitf37133c1-x86.zip)
 
 ## MacOSX
 
 ### MacOSX - Intel
+
 Arch | Package
----|:---
+--- |:---
 x86_64 | PKG: [GLPI-Agent-1.0-gitf37133c1_x86_64.pkg](GLPI-Agent-1.0-gitf37133c1_x86_64.pkg)
 x86_64 | DMG: [GLPI-Agent-1.0-gitf37133c1_x86_64.dmg](GLPI-Agent-1.0-gitf37133c1_x86_64.dmg)
 
 ### MacOSX - Apple Silicon
+
 Arch | Package
----|:---
+--- |:---
 arm64 | PKG: [GLPI-Agent-1.0-gitf37133c1_arm64.pkg](GLPI-Agent-1.0-gitf37133c1_arm64.pkg)
 arm64 | DMG: [GLPI-Agent-1.0-gitf37133c1_arm64.dmg](GLPI-Agent-1.0-gitf37133c1_arm64.dmg)
 
@@ -39,8 +42,9 @@ Linux installer for redhat/centos/debian/ubuntu, including snap install support 
 
 ### Debian/Ubuntu packages
 Better use [glpi-agent-1.0-gitf37133c1-linux-installer.pl](glpi-agent-1.0-gitf37133c1-linux-installer.pl) when possible.
+
 Related agent task |Package
----|:---
+--- |:---
 Inventory| [glpi-agent_1.0-gitf37133c1_all.deb](glpi-agent_1.0-gitf37133c1_all.deb)
 NetInventory | [glpi-agent-task-network_1.0-gitf37133c1_all.deb](glpi-agent-task-network_1.0-gitf37133c1_all.deb)
 ESX | [glpi-agent-task-esx_1.0-gitf37133c1_all.deb](glpi-agent-task-esx_1.0-gitf37133c1_all.deb)
@@ -49,8 +53,9 @@ Deploy | [glpi-agent-task-deploy_1.0-gitf37133c1_all.deb](glpi-agent-task-deploy
 
 ### RPM packages
 RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.0-gitf37133c1-linux-installer.pl](glpi-agent-1.0-gitf37133c1-linux-installer.pl) when possible.
+
 Task |Packages
----|:---
+--- |:---
 Inventory| [glpi-agent-1.0-gitf37133c1.noarch.rpm](glpi-agent-1.0-gitf37133c1.noarch.rpm)
 NetInventory | [glpi-agent-task-network-1.0-gitf37133c1.noarch.rpm](glpi-agent-task-network-1.0-gitf37133c1.noarch.rpm)
 ESX | [glpi-agent-task-esx-1.0-gitf37133c1.noarch.rpm](glpi-agent-task-esx-1.0-gitf37133c1.noarch.rpm)
@@ -63,22 +68,25 @@ Cron | [glpi-agent-cron-1.0-gitf37133c1.noarch.rpm](glpi-agent-cron-1.0-gitf3713
 # GLPI-Agent v1.0-git5a9f6a7f nightly build
 
 ## Windows
+
 Arch | Windows installer | Windows portable archive
----|:---|:---
+--- |:--- |:---
 64 bits | [GLPI-Agent-1.0-git5a9f6a7f-x64.msi](GLPI-Agent-1.0-git5a9f6a7f-x64.msi) | [glpi-agent-1.0-git5a9f6a7f-x64.zip](glpi-agent-1.0-git5a9f6a7f-x64.zip)
 32 bits | [GLPI-Agent-1.0-git5a9f6a7f-x86.msi](GLPI-Agent-1.0-git5a9f6a7f-x86.msi) | [glpi-agent-1.0-git5a9f6a7f-x86.zip](glpi-agent-1.0-git5a9f6a7f-x86.zip)
 
 ## MacOSX
 
 ### MacOSX - Intel
+
 Arch | Package
----|:---
+--- |:---
 x86_64 | PKG: [GLPI-Agent-1.0-git5a9f6a7f_x86_64.pkg](GLPI-Agent-1.0-git5a9f6a7f_x86_64.pkg)
 x86_64 | DMG: [GLPI-Agent-1.0-git5a9f6a7f_x86_64.dmg](GLPI-Agent-1.0-git5a9f6a7f_x86_64.dmg)
 
 ### MacOSX - Apple Silicon
+
 Arch | Package
----|:---
+--- |:---
 arm64 | PKG: [GLPI-Agent-1.0-git5a9f6a7f_arm64.pkg](GLPI-Agent-1.0-git5a9f6a7f_arm64.pkg)
 arm64 | DMG: [GLPI-Agent-1.0-git5a9f6a7f_arm64.dmg](GLPI-Agent-1.0-git5a9f6a7f_arm64.dmg)
 
@@ -96,8 +104,9 @@ Linux installer for redhat/centos/debian/ubuntu, including snap install support 
 
 ### Debian/Ubuntu packages
 Better use [glpi-agent-1.0-git5a9f6a7f-linux-installer.pl](glpi-agent-1.0-git5a9f6a7f-linux-installer.pl) when possible.
+
 Related agent task |Package
----|:---
+--- |:---
 Inventory| [glpi-agent_1.0-git5a9f6a7f_all.deb](glpi-agent_1.0-git5a9f6a7f_all.deb)
 NetInventory | [glpi-agent-task-network_1.0-git5a9f6a7f_all.deb](glpi-agent-task-network_1.0-git5a9f6a7f_all.deb)
 ESX | [glpi-agent-task-esx_1.0-git5a9f6a7f_all.deb](glpi-agent-task-esx_1.0-git5a9f6a7f_all.deb)
@@ -106,8 +115,9 @@ Deploy | [glpi-agent-task-deploy_1.0-git5a9f6a7f_all.deb](glpi-agent-task-deploy
 
 ### RPM packages
 RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.0-git5a9f6a7f-linux-installer.pl](glpi-agent-1.0-git5a9f6a7f-linux-installer.pl) when possible.
+
 Task |Packages
----|:---
+--- |:---
 Inventory| [glpi-agent-1.0-git5a9f6a7f.noarch.rpm](glpi-agent-1.0-git5a9f6a7f.noarch.rpm)
 NetInventory | [glpi-agent-task-network-1.0-git5a9f6a7f.noarch.rpm](glpi-agent-task-network-1.0-git5a9f6a7f.noarch.rpm)
 ESX | [glpi-agent-task-esx-1.0-git5a9f6a7f.noarch.rpm](glpi-agent-task-esx-1.0-git5a9f6a7f.noarch.rpm)
@@ -121,13 +131,14 @@ Cron | [glpi-agent-cron-1.0-git5a9f6a7f.noarch.rpm](glpi-agent-cron-1.0-git5a9f6
 
 ## Windows
 Arch | Windows installer | Windows portable archive
----|:---|:---
+--- |:--- |:---
 64 bits | [GLPI-Agent-1.0-git112848e4-x64.msi](GLPI-Agent-1.0-git112848e4-x64.msi) | [glpi-agent-1.0-git112848e4-x64.zip](glpi-agent-1.0-git112848e4-x64.zip)
 32 bits | [GLPI-Agent-1.0-git112848e4-x86.msi](GLPI-Agent-1.0-git112848e4-x86.msi) | [glpi-agent-1.0-git112848e4-x86.zip](glpi-agent-1.0-git112848e4-x86.zip)
 
 ## MacOSX
 
 ### MacOSX - Intel
+
 Arch | Package
 ---|:---
 x86_64 | PKG: [GLPI-Agent-1.0-git112848e4_x86_64.pkg](GLPI-Agent-1.0-git112848e4_x86_64.pkg)
