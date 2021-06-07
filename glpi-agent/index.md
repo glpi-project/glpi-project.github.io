@@ -34,13 +34,15 @@ arm64 | DMG: [GLPI-Agent-1.0-git994a347a_arm64.dmg](GLPI-Agent-1.0-git994a347a_a
 
 ### Linux installer
 
-Linux installer for redhat/centos/debian/ubuntu (~2Mb):
+Linux installer for redhat/centos/debian/ubuntu|Size
+---|---
+[glpi-agent-1.0-git994a347a-linux-installer.pl](glpi-agent-1.0-git994a347a-linux-installer.pl)|~2Mb
 
-[glpi-agent-1.0-git994a347a-linux-installer.pl](glpi-agent-1.0-git994a347a-linux-installer.pl)
+<p/>
 
-Linux installer for redhat/centos/debian/ubuntu, including snap install support (~20Mb):
-
-[glpi-agent-1.0-git994a347a-with-snap-linux-installer.pl](glpi-agent-1.0-git994a347a-with-snap-linux-installer.pl)
+Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
+---|---
+[glpi-agent-1.0-git994a347a-with-snap-linux-installer.pl](glpi-agent-1.0-git994a347a-with-snap-linux-installer.pl)|~20Mb
 
 ### Snap package for amd64
 
@@ -72,6 +74,7 @@ Deploy | [glpi-agent-task-deploy-1.0-git994a347a.noarch.rpm](glpi-agent-task-dep
 WakeOnLan | [glpi-agent-task-wakeonlan-1.0-git994a347a.noarch.rpm](glpi-agent-task-wakeonlan-1.0-git994a347a.noarch.rpm)
 Cron | [glpi-agent-cron-1.0-git994a347a.noarch.rpm](glpi-agent-cron-1.0-git994a347a.noarch.rpm)
 
+<p><a href='#content'>Back to top</a></p>
 ---
 
 # GLPI-Agent v1.0-gitd60e2283 nightly build
@@ -105,13 +108,15 @@ arm64 | DMG: [GLPI-Agent-1.0-gitd60e2283_arm64.dmg](GLPI-Agent-1.0-gitd60e2283_a
 
 ### Linux installer
 
-Linux installer for redhat/centos/debian/ubuntu (~2Mb):
+Linux installer for redhat/centos/debian/ubuntu|Size
+---|---
+[glpi-agent-1.0-gitd60e2283-linux-installer.pl](glpi-agent-1.0-gitd60e2283-linux-installer.pl)|~2Mb
 
-[glpi-agent-1.0-gitd60e2283-linux-installer.pl](glpi-agent-1.0-gitd60e2283-linux-installer.pl)
+<p/>
 
-Linux installer for redhat/centos/debian/ubuntu, including snap install support (~20Mb):
-
-[glpi-agent-1.0-gitd60e2283-with-snap-linux-installer.pl](glpi-agent-1.0-gitd60e2283-with-snap-linux-installer.pl)
+Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
+---|---
+[glpi-agent-1.0-gitd60e2283-with-snap-linux-installer.pl](glpi-agent-1.0-gitd60e2283-with-snap-linux-installer.pl)|~20Mb
 
 ### Snap package for amd64
 
@@ -143,6 +148,7 @@ Deploy | [glpi-agent-task-deploy-1.0-gitd60e2283.noarch.rpm](glpi-agent-task-dep
 WakeOnLan | [glpi-agent-task-wakeonlan-1.0-gitd60e2283.noarch.rpm](glpi-agent-task-wakeonlan-1.0-gitd60e2283.noarch.rpm)
 Cron | [glpi-agent-cron-1.0-gitd60e2283.noarch.rpm](glpi-agent-cron-1.0-gitd60e2283.noarch.rpm)
 
+<p><a href='#content'>Back to top</a></p>
 ---
 
 # GLPI-Agent v1.0-gitf05e1a47 nightly build
@@ -176,13 +182,15 @@ arm64 | DMG: [GLPI-Agent-1.0-gitf05e1a47_arm64.dmg](GLPI-Agent-1.0-gitf05e1a47_a
 
 ### Linux installer
 
-Linux installer for redhat/centos/debian/ubuntu (~2Mb):
+Linux installer for redhat/centos/debian/ubuntu|Size
+---|---
+[glpi-agent-1.0-gitf05e1a47-linux-installer.pl](glpi-agent-1.0-gitf05e1a47-linux-installer.pl)|~2Mb
 
-[glpi-agent-1.0-gitf05e1a47-linux-installer.pl](glpi-agent-1.0-gitf05e1a47-linux-installer.pl)
+<p/>
 
-Linux installer for redhat/centos/debian/ubuntu, including snap install support (~20Mb):
-
-[glpi-agent-1.0-gitf05e1a47-with-snap-linux-installer.pl](glpi-agent-1.0-gitf05e1a47-with-snap-linux-installer.pl)
+Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
+---|---
+[glpi-agent-1.0-gitf05e1a47-with-snap-linux-installer.pl](glpi-agent-1.0-gitf05e1a47-with-snap-linux-installer.pl)|~20Mb
 
 ### Snap package for amd64
 
@@ -214,5 +222,6 @@ Deploy | [glpi-agent-task-deploy-1.0-gitf05e1a47.noarch.rpm](glpi-agent-task-dep
 WakeOnLan | [glpi-agent-task-wakeonlan-1.0-gitf05e1a47.noarch.rpm](glpi-agent-task-wakeonlan-1.0-gitf05e1a47.noarch.rpm)
 Cron | [glpi-agent-cron-1.0-gitf05e1a47.noarch.rpm](glpi-agent-cron-1.0-gitf05e1a47.noarch.rpm)
 
+<p><a href='#content'>Back to top</a></p>
 ---
 
