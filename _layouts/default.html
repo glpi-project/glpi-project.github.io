@@ -28,24 +28,24 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      {% if page.dir == "/glpi-agent/" %}
-        {% include toc.html h_max=2 html=content %}
+      {% if page.dir contains "/glpi" %}
+        <ul><li><a href="..">Home</li></ul>
+        {% if page.dir == "/glpi-agent/" %}
+          {% include toc.html h_max=2 html=content %}
+        {% endif %}
       {% endif %}
       {{ content }}
-      {% if page.dir == "/glpi/" %}
+      {% if page.dir contains "/glpi" %}
       <hr />
       <footer>
         <dl>
+        {% if page.dir == "/glpi/" %}
           <dt><a href="{{ site.github.owner_url }}/glpi">GLPI repository</a></dt>
           <dt><a href="/glpi-agent/">GLPI Agent nightly builds</a></dt>
-        </dl>
-      </footer>
-      {% elsif page.dir == "/glpi-agent/" %}
-      <hr />
-      <footer>
-        <dl>
+        {% elsif page.dir == "/glpi-agent/" %}
           <dt><a href="/glpi/">GLPI nightly builds</a></dt>
           <dt><a href="{{ site.github.owner_url }}/glpi-agent">GLPI Agent repository</a></dt>
+        {% endif %}
         </dl>
       </footer>
       {% endif %}
