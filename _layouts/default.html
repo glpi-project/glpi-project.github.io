@@ -30,7 +30,7 @@
     <main id="content" class="main-content" role="main">
       {% if page.dir == "/glpi-agent/" %}
         <ul><a href="..">Home</a></ul>
-        {% include toc.html h_max=2 html=content %}
+        {% include toc.html h_max=2 html=content sanitize=true %}
       {% endif %}
       {{ content }}
       {% if page.dir contains "/glpi" %}

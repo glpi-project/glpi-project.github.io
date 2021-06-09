@@ -122,7 +122,7 @@
             {% capture subMenuClass %} class="{{ include.submenu_class | replace: '%level%', subMenuLevel | split: '.' | join: ' ' }}"{% endcapture %}
         {% endif %}
 
-        {% capture anchorBody %}{% if include.sanitize %}{{ header | strip_html }}{% else %}{{ header }}{% endif %}{% endcapture %}
+        {% capture anchorBody %}{% if include.sanitize %}{{ header | strip_html | remove: '#' }}{% else %}{{ header }}{% endif %}{% endcapture %}
 
         {% if htmlID %}
             {% capture anchorAttributes %} href="{% if baseURL %}{{ baseURL }}{% endif %}#{{ htmlID }}"{% endcapture %}
