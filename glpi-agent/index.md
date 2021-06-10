@@ -11,8 +11,8 @@ Built on 2021-06-10 02:38:35 UTC
 
 Arch | Windows installer | Windows portable archive
 ---|:---|:---
-64 bits | [GLPI-Agent-1.0-gitc5e415cd-x64.msi](GLPI-Agent-1.0-gitc5e415cd-x64.msi) | [glpi-agent-1.0-gitc5e415cd-x64.zip](glpi-agent-1.0-gitc5e415cd-x64.zip)
-32 bits | [GLPI-Agent-1.0-gitc5e415cd-x86.msi](GLPI-Agent-1.0-gitc5e415cd-x86.msi) | [glpi-agent-1.0-gitc5e415cd-x86.zip](glpi-agent-1.0-gitc5e415cd-x86.zip)
+64 bits | [GLPI-Agent-1.0-gitc5e415cd-x64.msi](GLPI-Agent-1.0-gitc5e415cd-x64.msi) | [GLPI-Agent-1.0-gitc5e415cd-x64.zip](GLPI-Agent-1.0-gitc5e415cd-x64.zip)
+32 bits | [GLPI-Agent-1.0-gitc5e415cd-x86.msi](GLPI-Agent-1.0-gitc5e415cd-x86.msi) | [GLPI-Agent-1.0-gitc5e415cd-x86.zip](GLPI-Agent-1.0-gitc5e415cd-x86.zip)
 
 ## MacOSX <a href="#macosx-1-0-gitc5e415cd">#</a> {#macosx-1-0-gitc5e415cd}
 
@@ -85,8 +85,8 @@ Built on 2021-06-09 07:14:49 UTC
 
 Arch | Windows installer | Windows portable archive
 ---|:---|:---
-64 bits | [GLPI-Agent-1.0-git135a3682-x64.msi](GLPI-Agent-1.0-git135a3682-x64.msi) | [glpi-agent-1.0-git135a3682-x64.zip](glpi-agent-1.0-git135a3682-x64.zip)
-32 bits | [GLPI-Agent-1.0-git135a3682-x86.msi](GLPI-Agent-1.0-git135a3682-x86.msi) | [glpi-agent-1.0-git135a3682-x86.zip](glpi-agent-1.0-git135a3682-x86.zip)
+64 bits | [GLPI-Agent-1.0-git135a3682-x64.msi](GLPI-Agent-1.0-git135a3682-x64.msi) | [GLPI-Agent-1.0-git135a3682-x64.zip](GLPI-Agent-1.0-git135a3682-x64.zip)
+32 bits | [GLPI-Agent-1.0-git135a3682-x86.msi](GLPI-Agent-1.0-git135a3682-x86.msi) | [GLPI-Agent-1.0-git135a3682-x86.zip](GLPI-Agent-1.0-git135a3682-x86.zip)
 
 ## MacOSX <a href="#macosx-1-0-git135a3682">#</a> {#macosx-1-0-git135a3682}
 
@@ -159,8 +159,8 @@ Built on 2021-06-09 07:14:35 UTC
 
 Arch | Windows installer | Windows portable archive
 ---|:---|:---
-64 bits | [GLPI-Agent-1.0-git01fbb4c8-x64.msi](GLPI-Agent-1.0-git01fbb4c8-x64.msi) | [glpi-agent-1.0-git01fbb4c8-x64.zip](glpi-agent-1.0-git01fbb4c8-x64.zip)
-32 bits | [GLPI-Agent-1.0-git01fbb4c8-x86.msi](GLPI-Agent-1.0-git01fbb4c8-x86.msi) | [glpi-agent-1.0-git01fbb4c8-x86.zip](glpi-agent-1.0-git01fbb4c8-x86.zip)
+64 bits | [GLPI-Agent-1.0-git01fbb4c8-x64.msi](GLPI-Agent-1.0-git01fbb4c8-x64.msi) | [GLPI-Agent-1.0-git01fbb4c8-x64.zip](GLPI-Agent-1.0-git01fbb4c8-x64.zip)
+32 bits | [GLPI-Agent-1.0-git01fbb4c8-x86.msi](GLPI-Agent-1.0-git01fbb4c8-x86.msi) | [GLPI-Agent-1.0-git01fbb4c8-x86.zip](GLPI-Agent-1.0-git01fbb4c8-x86.zip)
 
 ## MacOSX <a href="#macosx-1-0-git01fbb4c8">#</a> {#macosx-1-0-git01fbb4c8}
 
