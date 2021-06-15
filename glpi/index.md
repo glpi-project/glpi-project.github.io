@@ -3,19 +3,13 @@ layout: default
 title: GLPI Nightly Builds
 ---
 
-Built on 2021-06-15 12:21:44 UTC
+Built on 2021-06-15 12:35:54 UTC
 
 ## 9.5-bugfixes
 
 Archive|Size
 ---|---
-[9.5-bugfixes.3aa9ab9.tar.gz](9.5-bugfixes.3aa9ab9.tar.gz)|45726322
-
-## 9.5-bugfixes
-
-Archive|Size
----|---
-[9.5-bugfixes.2b092a1.tar.gz](9.5-bugfixes.2b092a1.tar.gz)|45722753
+[9.5-bugfixes.3aa9ab9.tar.gz](9.5-bugfixes.3aa9ab9.tar.gz)|45725632
 
 ## 9.4-bugfixes
 
