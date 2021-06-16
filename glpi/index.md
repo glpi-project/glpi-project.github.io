@@ -16,10 +16,3 @@ Archive|Size
 Archive|Size
 ---|---
 [9.5-bugfixes.4b489b6.tar.gz](9.5-bugfixes.4b489b6.tar.gz)|45716536
-
-## 9.4-bugfixes
-
-Archive|Size
----|---
-[9.4-bugfixes.b03fa60.tar.gz](9.4-bugfixes.b03fa60.tar.gz)|34918391
-
