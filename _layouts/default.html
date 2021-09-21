@@ -20,17 +20,24 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/nightly.css' | absolute_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | absolute_url }}">
   </head>
   <body>
 
     <header class="page-header" role="banner" style="padding:1rem">
       <h1 class="project-name">{{ page.title }}</h1>
+      {% if page.dir == "/glpi-agent/" %}
+        <ul>
+          <li><a href="..">Home</a></li>
+          <li><a href="https://github.com/glpi-project/glpi-agent/">Project</a></li>
+          <li><a href="https://glpi-agent.readthedocs.io/">Documentation</a></li>
+        </ul>
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
       {% if page.dir == "/glpi-agent/" %}
-        <ul><a href="..">Home</a></ul>
         {% include toc.html h_max=2 html=content sanitize=true %}
       {% endif %}
       {{ content }}
