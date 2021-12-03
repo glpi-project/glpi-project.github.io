@@ -5,7 +5,7 @@ title: GLPI Nightly Builds
 
 Version|Archive|Build date|Size
 ---|---|---|---
-master|[master.bad71e5.tar.gz](master.bad71e5.tar.gz)|2021-12-02 00:18:46 UTC|87431762
-9.5-bugfixes|[9.5-bugfixes.9adcf22.tar.gz](9.5-bugfixes.9adcf22.tar.gz)|2021-12-03 00:15:04 UTC|45956320
+master|[master.892c6de.tar.gz](master.892c6de.tar.gz)|2021-12-03 00:20:12 UTC|87230665
+9.5-bugfixes|[9.5-bugfixes.9adcf22.tar.gz](9.5-bugfixes.9adcf22.tar.gz)|2021-12-03 00:15:06 UTC|45956320
 
-<font size="1">Page generated on 2021-12-03 00:15:04 UTC</font>
+<font size="1">Page generated on 2021-12-03 00:20:12 UTC</font>
