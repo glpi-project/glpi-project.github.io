@@ -7,6 +7,6 @@ Version|Archive|Build date|Size
 ---|---|---|---
 main|[main-16de63d.tar.gz](main-16de63d.tar.gz)|2022-07-14 00:38:19 UTC|60999424
 9.5|[9.5-5da35e4.tar.gz](9.5-5da35e4.tar.gz)|2022-07-02 00:27:37 UTC|46390455
-10.0|[10.0-56be8f5.tar.gz](10.0-56be8f5.tar.gz)|2022-08-30 00:35:58 UTC|60740466
+10.0|[10.0-027670b.tar.gz](10.0-027670b.tar.gz)|2022-08-31 00:37:05 UTC|60737443
 
-<font size="1">Page generated on 2022-08-30 00:35:58 UTC</font>
+<font size="1">Page generated on 2022-08-31 00:37:05 UTC</font>
