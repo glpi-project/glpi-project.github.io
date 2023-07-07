@@ -3,9 +3,91 @@ layout: default
 title: GLPI-Agent Nightly Builds
 ---
 
+# GLPI-Agent v1.6-git14b07549 nightly build
+
+Built on 2023-07-07 02:57:27 UTC
+
+## Windows <a href="#windows-1-6-git14b07549">#</a> {#windows-1-6-git14b07549}
+
+Arch | Windows installer | Windows portable archive
+---|:---|:---
+64 bits | [GLPI-Agent-1.6-git14b07549-x64.msi](GLPI-Agent-1.6-git14b07549-x64.msi) | [GLPI-Agent-1.6-git14b07549-x64.zip](GLPI-Agent-1.6-git14b07549-x64.zip)
+32 bits | [GLPI-Agent-1.6-git14b07549-x86.msi](GLPI-Agent-1.6-git14b07549-x86.msi) | [GLPI-Agent-1.6-git14b07549-x86.zip](GLPI-Agent-1.6-git14b07549-x86.zip)
+
+## MacOSX <a href="#macosx-1-6-git14b07549">#</a> {#macosx-1-6-git14b07549}
+
+### MacOSX - Intel
+
+Arch | Package
+---|:---
+x86_64 | PKG: [GLPI-Agent-1.6-git14b07549_x86_64.pkg](GLPI-Agent-1.6-git14b07549_x86_64.pkg)
+x86_64 | DMG: [GLPI-Agent-1.6-git14b07549_x86_64.dmg](GLPI-Agent-1.6-git14b07549_x86_64.dmg)
+
+### MacOSX - Apple Silicon
+
+Arch | Package
+---|:---
+arm64 | PKG: [GLPI-Agent-1.6-git14b07549_arm64.pkg](GLPI-Agent-1.6-git14b07549_arm64.pkg)
+arm64 | DMG: [GLPI-Agent-1.6-git14b07549_arm64.dmg](GLPI-Agent-1.6-git14b07549_arm64.dmg)
+
+## Linux <a href="#linux-1-6-git14b07549">#</a> {#linux-1-6-git14b07549}
+
+### Linux installer
+
+Linux installer for redhat/centos/debian/ubuntu|Size
+---|---
+[glpi-agent-1.6-git14b07549-linux-installer.pl](glpi-agent-1.6-git14b07549-linux-installer.pl)|~2Mb
+
+<p/>
+
+Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
+---|---
+[glpi-agent-1.6-git14b07549-with-snap-linux-installer.pl](glpi-agent-1.6-git14b07549-with-snap-linux-installer.pl)|~20Mb
+
+### Snap package for amd64
+
+[glpi-agent_1.6-git14b07549_amd64.snap](glpi-agent_1.6-git14b07549_amd64.snap)
+
+### AppImage Linux installer for x86-64
+
+[glpi-agent-1.6-git14b07549-x86_64.AppImage](glpi-agent-1.6-git14b07549-x86_64.AppImage)
+
+### Debian/Ubuntu packages
+
+Better use [glpi-agent-1.6-git14b07549-linux-installer.pl](glpi-agent-1.6-git14b07549-linux-installer.pl) when possible.
+
+Related agent task |Package
+---|:---
+Inventory| [glpi-agent_1.6-git14b07549_all.deb](glpi-agent_1.6-git14b07549_all.deb)
+NetInventory | [glpi-agent-task-network_1.6-git14b07549_all.deb](glpi-agent-task-network_1.6-git14b07549_all.deb)
+ESX | [glpi-agent-task-esx_1.6-git14b07549_all.deb](glpi-agent-task-esx_1.6-git14b07549_all.deb)
+Collect | [glpi-agent-task-collect_1.6-git14b07549_all.deb](glpi-agent-task-collect_1.6-git14b07549_all.deb)
+Deploy | [glpi-agent-task-deploy_1.6-git14b07549_all.deb](glpi-agent-task-deploy_1.6-git14b07549_all.deb)
+
+### RPM packages
+
+RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.6-git14b07549-linux-installer.pl](glpi-agent-1.6-git14b07549-linux-installer.pl) when possible.
+
+Task |Packages
+---|:---
+Inventory| [glpi-agent-1.6-git14b07549.noarch.rpm](glpi-agent-1.6-git14b07549.noarch.rpm)
+NetInventory | [glpi-agent-task-network-1.6-git14b07549.noarch.rpm](glpi-agent-task-network-1.6-git14b07549.noarch.rpm)
+ESX | [glpi-agent-task-esx-1.6-git14b07549.noarch.rpm](glpi-agent-task-esx-1.6-git14b07549.noarch.rpm)
+Collect | [glpi-agent-task-collect-1.6-git14b07549.noarch.rpm](glpi-agent-task-collect-1.6-git14b07549.noarch.rpm)
+Deploy | [glpi-agent-task-deploy-1.6-git14b07549.noarch.rpm](glpi-agent-task-deploy-1.6-git14b07549.noarch.rpm)
+WakeOnLan | [glpi-agent-task-wakeonlan-1.6-git14b07549.noarch.rpm](glpi-agent-task-wakeonlan-1.6-git14b07549.noarch.rpm)
+Cron | [glpi-agent-cron-1.6-git14b07549.noarch.rpm](glpi-agent-cron-1.6-git14b07549.noarch.rpm)
+
+## Sources <a href="#sources-1-6-git14b07549">#</a> {#sources-1-6-git14b07549}
+
+[GLPI-Agent-1.6-git14b07549.tar.gz](GLPI-Agent-1.6-git14b07549.tar.gz)
+
+<p><a href='#content'>Back to top</a></p>
+---
+
 # GLPI-Agent v1.6-gitf8c3877f nightly build
 
-Built on 2023-07-05 02:55:35 UTC
+Built on 2023-07-05 02:56:04 UTC
 
 ## Windows <a href="#windows-1-6-gitf8c3877f">#</a> {#windows-1-6-gitf8c3877f}
 
@@ -163,88 +245,6 @@ Cron | [glpi-agent-cron-1.6-gitd39ff52d.noarch.rpm](glpi-agent-cron-1.6-gitd39ff
 ## Sources <a href="#sources-1-6-gitd39ff52d">#</a> {#sources-1-6-gitd39ff52d}
 
 [GLPI-Agent-1.6-gitd39ff52d.tar.gz](GLPI-Agent-1.6-gitd39ff52d.tar.gz)
-
-<p><a href='#content'>Back to top</a></p>
----
-
-# GLPI-Agent v1.6-gitbad7806d nightly build
-
-Built on 2023-06-28 02:55:16 UTC
-
-## Windows <a href="#windows-1-6-gitbad7806d">#</a> {#windows-1-6-gitbad7806d}
-
-Arch | Windows installer | Windows portable archive
----|:---|:---
-64 bits | [GLPI-Agent-1.6-gitbad7806d-x64.msi](GLPI-Agent-1.6-gitbad7806d-x64.msi) | [GLPI-Agent-1.6-gitbad7806d-x64.zip](GLPI-Agent-1.6-gitbad7806d-x64.zip)
-32 bits | [GLPI-Agent-1.6-gitbad7806d-x86.msi](GLPI-Agent-1.6-gitbad7806d-x86.msi) | [GLPI-Agent-1.6-gitbad7806d-x86.zip](GLPI-Agent-1.6-gitbad7806d-x86.zip)
-
-## MacOSX <a href="#macosx-1-6-gitbad7806d">#</a> {#macosx-1-6-gitbad7806d}
-
-### MacOSX - Intel
-
-Arch | Package
----|:---
-x86_64 | PKG: [GLPI-Agent-1.6-gitbad7806d_x86_64.pkg](GLPI-Agent-1.6-gitbad7806d_x86_64.pkg)
-x86_64 | DMG: [GLPI-Agent-1.6-gitbad7806d_x86_64.dmg](GLPI-Agent-1.6-gitbad7806d_x86_64.dmg)
-
-### MacOSX - Apple Silicon
-
-Arch | Package
----|:---
-arm64 | PKG: [GLPI-Agent-1.6-gitbad7806d_arm64.pkg](GLPI-Agent-1.6-gitbad7806d_arm64.pkg)
-arm64 | DMG: [GLPI-Agent-1.6-gitbad7806d_arm64.dmg](GLPI-Agent-1.6-gitbad7806d_arm64.dmg)
-
-## Linux <a href="#linux-1-6-gitbad7806d">#</a> {#linux-1-6-gitbad7806d}
-
-### Linux installer
-
-Linux installer for redhat/centos/debian/ubuntu|Size
----|---
-[glpi-agent-1.6-gitbad7806d-linux-installer.pl](glpi-agent-1.6-gitbad7806d-linux-installer.pl)|~2Mb
-
-<p/>
-
-Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
----|---
-[glpi-agent-1.6-gitbad7806d-with-snap-linux-installer.pl](glpi-agent-1.6-gitbad7806d-with-snap-linux-installer.pl)|~20Mb
-
-### Snap package for amd64
-
-[glpi-agent_1.6-gitbad7806d_amd64.snap](glpi-agent_1.6-gitbad7806d_amd64.snap)
-
-### AppImage Linux installer for x86-64
-
-[glpi-agent-1.6-gitbad7806d-x86_64.AppImage](glpi-agent-1.6-gitbad7806d-x86_64.AppImage)
-
-### Debian/Ubuntu packages
-
-Better use [glpi-agent-1.6-gitbad7806d-linux-installer.pl](glpi-agent-1.6-gitbad7806d-linux-installer.pl) when possible.
-
-Related agent task |Package
----|:---
-Inventory| [glpi-agent_1.6-gitbad7806d_all.deb](glpi-agent_1.6-gitbad7806d_all.deb)
-NetInventory | [glpi-agent-task-network_1.6-gitbad7806d_all.deb](glpi-agent-task-network_1.6-gitbad7806d_all.deb)
-ESX | [glpi-agent-task-esx_1.6-gitbad7806d_all.deb](glpi-agent-task-esx_1.6-gitbad7806d_all.deb)
-Collect | [glpi-agent-task-collect_1.6-gitbad7806d_all.deb](glpi-agent-task-collect_1.6-gitbad7806d_all.deb)
-Deploy | [glpi-agent-task-deploy_1.6-gitbad7806d_all.deb](glpi-agent-task-deploy_1.6-gitbad7806d_all.deb)
-
-### RPM packages
-
-RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.6-gitbad7806d-linux-installer.pl](glpi-agent-1.6-gitbad7806d-linux-installer.pl) when possible.
-
-Task |Packages
----|:---
-Inventory| [glpi-agent-1.6-gitbad7806d.noarch.rpm](glpi-agent-1.6-gitbad7806d.noarch.rpm)
-NetInventory | [glpi-agent-task-network-1.6-gitbad7806d.noarch.rpm](glpi-agent-task-network-1.6-gitbad7806d.noarch.rpm)
-ESX | [glpi-agent-task-esx-1.6-gitbad7806d.noarch.rpm](glpi-agent-task-esx-1.6-gitbad7806d.noarch.rpm)
-Collect | [glpi-agent-task-collect-1.6-gitbad7806d.noarch.rpm](glpi-agent-task-collect-1.6-gitbad7806d.noarch.rpm)
-Deploy | [glpi-agent-task-deploy-1.6-gitbad7806d.noarch.rpm](glpi-agent-task-deploy-1.6-gitbad7806d.noarch.rpm)
-WakeOnLan | [glpi-agent-task-wakeonlan-1.6-gitbad7806d.noarch.rpm](glpi-agent-task-wakeonlan-1.6-gitbad7806d.noarch.rpm)
-Cron | [glpi-agent-cron-1.6-gitbad7806d.noarch.rpm](glpi-agent-cron-1.6-gitbad7806d.noarch.rpm)
-
-## Sources <a href="#sources-1-6-gitbad7806d">#</a> {#sources-1-6-gitbad7806d}
-
-[GLPI-Agent-1.6-gitbad7806d.tar.gz](GLPI-Agent-1.6-gitbad7806d.tar.gz)
 
 <p><a href='#content'>Back to top</a></p>
 ---
