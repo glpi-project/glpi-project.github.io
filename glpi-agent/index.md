@@ -3,9 +3,94 @@ layout: default
 title: GLPI-Agent Nightly Builds
 ---
 
+# GLPI-Agent v1.8-git0a77a793 nightly build
+
+Built on 2024-04-12 02:08:09 UTC
+
+## Windows <a href="#windows-1-8-git0a77a793">#</a> {#windows-1-8-git0a77a793}
+
+Arch | Windows installer | Windows portable archive
+---|:---|:---
+64 bits | [GLPI-Agent-1.8-git0a77a793-x64.msi](GLPI-Agent-1.8-git0a77a793-x64.msi) | [GLPI-Agent-1.8-git0a77a793-x64.zip](GLPI-Agent-1.8-git0a77a793-x64.zip)
+
+
+## MacOSX <a href="#macosx-1-8-git0a77a793">#</a> {#macosx-1-8-git0a77a793}
+
+### MacOSX - Intel
+
+Arch | Package
+---|:---
+x86_64 | PKG: [GLPI-Agent-1.8-git0a77a793_x86_64.pkg](GLPI-Agent-1.8-git0a77a793_x86_64.pkg)
+x86_64 | DMG: [GLPI-Agent-1.8-git0a77a793_x86_64.dmg](GLPI-Agent-1.8-git0a77a793_x86_64.dmg)
+
+### MacOSX - Apple Silicon
+
+Arch | Package
+---|:---
+arm64 | PKG: [GLPI-Agent-1.8-git0a77a793_arm64.pkg](GLPI-Agent-1.8-git0a77a793_arm64.pkg)
+arm64 | DMG: [GLPI-Agent-1.8-git0a77a793_arm64.dmg](GLPI-Agent-1.8-git0a77a793_arm64.dmg)
+
+## Linux <a href="#linux-1-8-git0a77a793">#</a> {#linux-1-8-git0a77a793}
+
+### Linux installer
+
+Linux installer for redhat/centos/debian/ubuntu|Size
+---|---
+[glpi-agent-1.8-git0a77a793-linux-installer.pl](glpi-agent-1.8-git0a77a793-linux-installer.pl)|~2Mb
+
+<p/>
+
+Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
+---|---
+[glpi-agent-1.8-git0a77a793-with-snap-linux-installer.pl](glpi-agent-1.8-git0a77a793-with-snap-linux-installer.pl)|~20Mb
+
+### Snap package for amd64
+
+[glpi-agent_1.8-git0a77a793_amd64.snap](glpi-agent_1.8-git0a77a793_amd64.snap)
+
+### AppImage Linux installer for x86-64
+
+[glpi-agent-1.8-git0a77a793-x86_64.AppImage](glpi-agent-1.8-git0a77a793-x86_64.AppImage)
+
+### Debian/Ubuntu packages
+
+Better use [glpi-agent-1.8-git0a77a793-linux-installer.pl](glpi-agent-1.8-git0a77a793-linux-installer.pl) when possible.
+
+Related agent task |Package
+---|:---
+Inventory| [glpi-agent_1.8-git0a77a793_all.deb](glpi-agent_1.8-git0a77a793_all.deb)
+NetInventory | [glpi-agent-task-network_1.8-git0a77a793_all.deb](glpi-agent-task-network_1.8-git0a77a793_all.deb)
+ESX | [glpi-agent-task-esx_1.8-git0a77a793_all.deb](glpi-agent-task-esx_1.8-git0a77a793_all.deb)
+Collect | [glpi-agent-task-collect_1.8-git0a77a793_all.deb](glpi-agent-task-collect_1.8-git0a77a793_all.deb)
+Deploy | [glpi-agent-task-deploy_1.8-git0a77a793_all.deb](glpi-agent-task-deploy_1.8-git0a77a793_all.deb)
+
+### RPM packages
+
+RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.8-git0a77a793-linux-installer.pl](glpi-agent-1.8-git0a77a793-linux-installer.pl) when possible.
+
+Task |Packages
+---|:---
+Inventory| [glpi-agent-1.8-git0a77a793.noarch.rpm](glpi-agent-1.8-git0a77a793.noarch.rpm)
+NetInventory | [glpi-agent-task-network-1.8-git0a77a793.noarch.rpm](glpi-agent-task-network-1.8-git0a77a793.noarch.rpm)
+ESX | [glpi-agent-task-esx-1.8-git0a77a793.noarch.rpm](glpi-agent-task-esx-1.8-git0a77a793.noarch.rpm)
+Collect | [glpi-agent-task-collect-1.8-git0a77a793.noarch.rpm](glpi-agent-task-collect-1.8-git0a77a793.noarch.rpm)
+Deploy | [glpi-agent-task-deploy-1.8-git0a77a793.noarch.rpm](glpi-agent-task-deploy-1.8-git0a77a793.noarch.rpm)
+WakeOnLan | [glpi-agent-task-wakeonlan-1.8-git0a77a793.noarch.rpm](glpi-agent-task-wakeonlan-1.8-git0a77a793.noarch.rpm)
+Cron | [glpi-agent-cron-1.8-git0a77a793.noarch.rpm](glpi-agent-cron-1.8-git0a77a793.noarch.rpm)
+
+## Sources <a href="#sources-1-8-git0a77a793">#</a> {#sources-1-8-git0a77a793}
+
+[GLPI-Agent-1.8-git0a77a793.tar.gz](GLPI-Agent-1.8-git0a77a793.tar.gz)
+
+## SHA256 sums
+All sha256 sums for released filed can be retrieved from [glpi-agent-1.8-git0a77a793.sha256](glpi-agent-1.8-git0a77a793.sha256).
+
+<p><a href='#content'>Back to top</a></p>
+---
+
 # GLPI-Agent v1.8-git0f1e55b3 nightly build
 
-Built on 2024-04-10 02:07:35 UTC
+Built on   UTC
 
 ## Windows <a href="#windows-1-8-git0f1e55b3">#</a> {#windows-1-8-git0f1e55b3}
 
@@ -169,91 +254,6 @@ Cron | [glpi-agent-cron-1.8-gitcf993421.noarch.rpm](glpi-agent-cron-1.8-gitcf993
 
 ## SHA256 sums
 All sha256 sums for released filed can be retrieved from [glpi-agent-1.8-gitcf993421.sha256](glpi-agent-1.8-gitcf993421.sha256).
-
-<p><a href='#content'>Back to top</a></p>
----
-
-# GLPI-Agent v1.8-gitd1c84496 nightly build
-
-Built on   UTC
-
-## Windows <a href="#windows-1-8-gitd1c84496">#</a> {#windows-1-8-gitd1c84496}
-
-Arch | Windows installer | Windows portable archive
----|:---|:---
-64 bits | [GLPI-Agent-1.8-gitd1c84496-x64.msi](GLPI-Agent-1.8-gitd1c84496-x64.msi) | [GLPI-Agent-1.8-gitd1c84496-x64.zip](GLPI-Agent-1.8-gitd1c84496-x64.zip)
-
-
-## MacOSX <a href="#macosx-1-8-gitd1c84496">#</a> {#macosx-1-8-gitd1c84496}
-
-### MacOSX - Intel
-
-Arch | Package
----|:---
-x86_64 | PKG: [GLPI-Agent-1.8-gitd1c84496_x86_64.pkg](GLPI-Agent-1.8-gitd1c84496_x86_64.pkg)
-x86_64 | DMG: [GLPI-Agent-1.8-gitd1c84496_x86_64.dmg](GLPI-Agent-1.8-gitd1c84496_x86_64.dmg)
-
-### MacOSX - Apple Silicon
-
-Arch | Package
----|:---
-arm64 | PKG: [GLPI-Agent-1.8-gitd1c84496_arm64.pkg](GLPI-Agent-1.8-gitd1c84496_arm64.pkg)
-arm64 | DMG: [GLPI-Agent-1.8-gitd1c84496_arm64.dmg](GLPI-Agent-1.8-gitd1c84496_arm64.dmg)
-
-## Linux <a href="#linux-1-8-gitd1c84496">#</a> {#linux-1-8-gitd1c84496}
-
-### Linux installer
-
-Linux installer for redhat/centos/debian/ubuntu|Size
----|---
-[glpi-agent-1.8-gitd1c84496-linux-installer.pl](glpi-agent-1.8-gitd1c84496-linux-installer.pl)|~2Mb
-
-<p/>
-
-Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
----|---
-[glpi-agent-1.8-gitd1c84496-with-snap-linux-installer.pl](glpi-agent-1.8-gitd1c84496-with-snap-linux-installer.pl)|~20Mb
-
-### Snap package for amd64
-
-[glpi-agent_1.8-gitd1c84496_amd64.snap](glpi-agent_1.8-gitd1c84496_amd64.snap)
-
-### AppImage Linux installer for x86-64
-
-[glpi-agent-1.8-gitd1c84496-x86_64.AppImage](glpi-agent-1.8-gitd1c84496-x86_64.AppImage)
-
-### Debian/Ubuntu packages
-
-Better use [glpi-agent-1.8-gitd1c84496-linux-installer.pl](glpi-agent-1.8-gitd1c84496-linux-installer.pl) when possible.
-
-Related agent task |Package
----|:---
-Inventory| [glpi-agent_1.8-gitd1c84496_all.deb](glpi-agent_1.8-gitd1c84496_all.deb)
-NetInventory | [glpi-agent-task-network_1.8-gitd1c84496_all.deb](glpi-agent-task-network_1.8-gitd1c84496_all.deb)
-ESX | [glpi-agent-task-esx_1.8-gitd1c84496_all.deb](glpi-agent-task-esx_1.8-gitd1c84496_all.deb)
-Collect | [glpi-agent-task-collect_1.8-gitd1c84496_all.deb](glpi-agent-task-collect_1.8-gitd1c84496_all.deb)
-Deploy | [glpi-agent-task-deploy_1.8-gitd1c84496_all.deb](glpi-agent-task-deploy_1.8-gitd1c84496_all.deb)
-
-### RPM packages
-
-RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.8-gitd1c84496-linux-installer.pl](glpi-agent-1.8-gitd1c84496-linux-installer.pl) when possible.
-
-Task |Packages
----|:---
-Inventory| [glpi-agent-1.8-gitd1c84496.noarch.rpm](glpi-agent-1.8-gitd1c84496.noarch.rpm)
-NetInventory | [glpi-agent-task-network-1.8-gitd1c84496.noarch.rpm](glpi-agent-task-network-1.8-gitd1c84496.noarch.rpm)
-ESX | [glpi-agent-task-esx-1.8-gitd1c84496.noarch.rpm](glpi-agent-task-esx-1.8-gitd1c84496.noarch.rpm)
-Collect | [glpi-agent-task-collect-1.8-gitd1c84496.noarch.rpm](glpi-agent-task-collect-1.8-gitd1c84496.noarch.rpm)
-Deploy | [glpi-agent-task-deploy-1.8-gitd1c84496.noarch.rpm](glpi-agent-task-deploy-1.8-gitd1c84496.noarch.rpm)
-WakeOnLan | [glpi-agent-task-wakeonlan-1.8-gitd1c84496.noarch.rpm](glpi-agent-task-wakeonlan-1.8-gitd1c84496.noarch.rpm)
-Cron | [glpi-agent-cron-1.8-gitd1c84496.noarch.rpm](glpi-agent-cron-1.8-gitd1c84496.noarch.rpm)
-
-## Sources <a href="#sources-1-8-gitd1c84496">#</a> {#sources-1-8-gitd1c84496}
-
-[GLPI-Agent-1.8-gitd1c84496.tar.gz](GLPI-Agent-1.8-gitd1c84496.tar.gz)
-
-## SHA256 sums
-All sha256 sums for released filed can be retrieved from [glpi-agent-1.8-gitd1c84496.sha256](glpi-agent-1.8-gitd1c84496.sha256).
 
 <p><a href='#content'>Back to top</a></p>
 ---
