@@ -5,7 +5,7 @@ title: GLPI Nightly Builds
 
 Version|Archive|Build date|Size
 ---|---|---|---
-main|[main-baad27c.tar.gz](main-baad27c.tar.gz)|2024-09-17 00:31:34 UTC|79986983
-10.0|[10.0-f9a88ab.tar.gz](10.0-f9a88ab.tar.gz)|2024-09-17 00:26:11 UTC|60632872
+main|[main-baad27c.tar.gz](main-baad27c.tar.gz)|2024-09-17 00:31:36 UTC|79986983
+10.0|[10.0-e6aaf71.tar.gz](10.0-e6aaf71.tar.gz)|2024-09-18 00:30:43 UTC|60632153
 
-<font size="1">Page generated on 2024-09-17 00:31:34 UTC</font>
+<font size="1">Page generated on 2024-09-18 00:30:43 UTC</font>
