@@ -5,7 +5,7 @@ title: GLPI Nightly Builds
 
 Version|Archive|Build date|Size
 ---|---|---|---
-main|[main-6a7ff74.tar.gz](main-6a7ff74.tar.gz)|2024-12-03 00:40:43 UTC|82326822
-10.0|[10.0-e8910bc.tar.gz](10.0-e8910bc.tar.gz)|2024-12-04 00:34:41 UTC|60315642
+main|[main-702fcce.tar.gz](main-702fcce.tar.gz)|2024-12-04 00:39:49 UTC|82379428
+10.0|[10.0-e8910bc.tar.gz](10.0-e8910bc.tar.gz)|2024-12-04 00:34:43 UTC|60315642
 
-<font size="1">Page generated on 2024-12-04 00:34:41 UTC</font>
+<font size="1">Page generated on 2024-12-04 00:39:49 UTC</font>
