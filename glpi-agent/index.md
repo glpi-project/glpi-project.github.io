@@ -3,9 +3,94 @@ layout: default
 title: GLPI-Agent Nightly Builds
 ---
 
+# GLPI-Agent v1.12-gitc887d36e nightly build
+
+Built on 2024-12-21 02:28:31 UTC
+
+## Windows <a href="#windows-1-12-gitc887d36e">#</a> {#windows-1-12-gitc887d36e}
+
+Arch | Windows installer | Windows portable archive
+---|:---|:---
+64 bits | [GLPI-Agent-1.12-gitc887d36e-x64.msi](GLPI-Agent-1.12-gitc887d36e-x64.msi) | [GLPI-Agent-1.12-gitc887d36e-x64.zip](GLPI-Agent-1.12-gitc887d36e-x64.zip)
+
+
+## MacOSX <a href="#macosx-1-12-gitc887d36e">#</a> {#macosx-1-12-gitc887d36e}
+
+### MacOSX - Intel
+
+Arch | Package
+---|:---
+x86_64 | PKG: [GLPI-Agent-1.12-gitc887d36e_x86_64.pkg](GLPI-Agent-1.12-gitc887d36e_x86_64.pkg)
+x86_64 | DMG: [GLPI-Agent-1.12-gitc887d36e_x86_64.dmg](GLPI-Agent-1.12-gitc887d36e_x86_64.dmg)
+
+### MacOSX - Apple Silicon
+
+Arch | Package
+---|:---
+arm64 | PKG: [GLPI-Agent-1.12-gitc887d36e_arm64.pkg](GLPI-Agent-1.12-gitc887d36e_arm64.pkg)
+arm64 | DMG: [GLPI-Agent-1.12-gitc887d36e_arm64.dmg](GLPI-Agent-1.12-gitc887d36e_arm64.dmg)
+
+## Linux <a href="#linux-1-12-gitc887d36e">#</a> {#linux-1-12-gitc887d36e}
+
+### Linux installer
+
+Linux installer for redhat/centos/debian/ubuntu|Size
+---|---
+[glpi-agent-1.12-gitc887d36e-linux-installer.pl](glpi-agent-1.12-gitc887d36e-linux-installer.pl)|~2Mb
+
+<p/>
+
+Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
+---|---
+[glpi-agent-1.12-gitc887d36e-with-snap-linux-installer.pl](glpi-agent-1.12-gitc887d36e-with-snap-linux-installer.pl)|~20Mb
+
+### Snap package for amd64
+
+[glpi-agent_1.12-gitc887d36e_amd64.snap](glpi-agent_1.12-gitc887d36e_amd64.snap)
+
+### AppImage Linux installer for x86-64
+
+[glpi-agent-1.12-gitc887d36e-x86_64.AppImage](glpi-agent-1.12-gitc887d36e-x86_64.AppImage)
+
+### Debian/Ubuntu packages
+
+Better use [glpi-agent-1.12-gitc887d36e-linux-installer.pl](glpi-agent-1.12-gitc887d36e-linux-installer.pl) when possible.
+
+Related agent task |Package
+---|:---
+Inventory| [glpi-agent_1.12-gitc887d36e_all.deb](glpi-agent_1.12-gitc887d36e_all.deb)
+NetInventory | [glpi-agent-task-network_1.12-gitc887d36e_all.deb](glpi-agent-task-network_1.12-gitc887d36e_all.deb)
+ESX | [glpi-agent-task-esx_1.12-gitc887d36e_all.deb](glpi-agent-task-esx_1.12-gitc887d36e_all.deb)
+Collect | [glpi-agent-task-collect_1.12-gitc887d36e_all.deb](glpi-agent-task-collect_1.12-gitc887d36e_all.deb)
+Deploy | [glpi-agent-task-deploy_1.12-gitc887d36e_all.deb](glpi-agent-task-deploy_1.12-gitc887d36e_all.deb)
+
+### RPM packages
+
+RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.12-gitc887d36e-linux-installer.pl](glpi-agent-1.12-gitc887d36e-linux-installer.pl) when possible.
+
+Task |Packages
+---|:---
+Inventory| [glpi-agent-1.12-gitc887d36e.noarch.rpm](glpi-agent-1.12-gitc887d36e.noarch.rpm)
+NetInventory | [glpi-agent-task-network-1.12-gitc887d36e.noarch.rpm](glpi-agent-task-network-1.12-gitc887d36e.noarch.rpm)
+ESX | [glpi-agent-task-esx-1.12-gitc887d36e.noarch.rpm](glpi-agent-task-esx-1.12-gitc887d36e.noarch.rpm)
+Collect | [glpi-agent-task-collect-1.12-gitc887d36e.noarch.rpm](glpi-agent-task-collect-1.12-gitc887d36e.noarch.rpm)
+Deploy | [glpi-agent-task-deploy-1.12-gitc887d36e.noarch.rpm](glpi-agent-task-deploy-1.12-gitc887d36e.noarch.rpm)
+WakeOnLan | [glpi-agent-task-wakeonlan-1.12-gitc887d36e.noarch.rpm](glpi-agent-task-wakeonlan-1.12-gitc887d36e.noarch.rpm)
+Cron | [glpi-agent-cron-1.12-gitc887d36e.noarch.rpm](glpi-agent-cron-1.12-gitc887d36e.noarch.rpm)
+
+## Sources <a href="#sources-1-12-gitc887d36e">#</a> {#sources-1-12-gitc887d36e}
+
+[GLPI-Agent-1.12-gitc887d36e.tar.gz](GLPI-Agent-1.12-gitc887d36e.tar.gz)
+
+## SHA256 sums
+All sha256 sums for released filed can be retrieved from [glpi-agent-1.12-gitc887d36e.sha256](glpi-agent-1.12-gitc887d36e.sha256).
+
+<p><a href='#content'>Back to top</a></p>
+---
+
 # GLPI-Agent v1.12-git03af48ea nightly build
 
-Built on 2024-12-20 02:38:40 UTC
+Built on 2024-12-20 02:39:18 UTC
 
 ## Windows <a href="#windows-1-12-git03af48ea">#</a> {#windows-1-12-git03af48ea}
 
@@ -169,91 +254,6 @@ Cron | [glpi-agent-cron-1.12-git21f98635.noarch.rpm](glpi-agent-cron-1.12-git21f
 
 ## SHA256 sums
 All sha256 sums for released filed can be retrieved from [glpi-agent-1.12-git21f98635.sha256](glpi-agent-1.12-git21f98635.sha256).
-
-<p><a href='#content'>Back to top</a></p>
----
-
-# GLPI-Agent v1.12-git01ceeb38 nightly build
-
-Built on 2024-12-17 07:52:06 UTC
-
-## Windows <a href="#windows-1-12-git01ceeb38">#</a> {#windows-1-12-git01ceeb38}
-
-Arch | Windows installer | Windows portable archive
----|:---|:---
-64 bits | [GLPI-Agent-1.12-git01ceeb38-x64.msi](GLPI-Agent-1.12-git01ceeb38-x64.msi) | [GLPI-Agent-1.12-git01ceeb38-x64.zip](GLPI-Agent-1.12-git01ceeb38-x64.zip)
-
-
-## MacOSX <a href="#macosx-1-12-git01ceeb38">#</a> {#macosx-1-12-git01ceeb38}
-
-### MacOSX - Intel
-
-Arch | Package
----|:---
-x86_64 | PKG: [GLPI-Agent-1.12-git01ceeb38_x86_64.pkg](GLPI-Agent-1.12-git01ceeb38_x86_64.pkg)
-x86_64 | DMG: [GLPI-Agent-1.12-git01ceeb38_x86_64.dmg](GLPI-Agent-1.12-git01ceeb38_x86_64.dmg)
-
-### MacOSX - Apple Silicon
-
-Arch | Package
----|:---
-arm64 | PKG: [GLPI-Agent-1.12-git01ceeb38_arm64.pkg](GLPI-Agent-1.12-git01ceeb38_arm64.pkg)
-arm64 | DMG: [GLPI-Agent-1.12-git01ceeb38_arm64.dmg](GLPI-Agent-1.12-git01ceeb38_arm64.dmg)
-
-## Linux <a href="#linux-1-12-git01ceeb38">#</a> {#linux-1-12-git01ceeb38}
-
-### Linux installer
-
-Linux installer for redhat/centos/debian/ubuntu|Size
----|---
-[glpi-agent-1.12-git01ceeb38-linux-installer.pl](glpi-agent-1.12-git01ceeb38-linux-installer.pl)|~2Mb
-
-<p/>
-
-Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
----|---
-[glpi-agent-1.12-git01ceeb38-with-snap-linux-installer.pl](glpi-agent-1.12-git01ceeb38-with-snap-linux-installer.pl)|~20Mb
-
-### Snap package for amd64
-
-[glpi-agent_1.12-git01ceeb38_amd64.snap](glpi-agent_1.12-git01ceeb38_amd64.snap)
-
-### AppImage Linux installer for x86-64
-
-[glpi-agent-1.12-git01ceeb38-x86_64.AppImage](glpi-agent-1.12-git01ceeb38-x86_64.AppImage)
-
-### Debian/Ubuntu packages
-
-Better use [glpi-agent-1.12-git01ceeb38-linux-installer.pl](glpi-agent-1.12-git01ceeb38-linux-installer.pl) when possible.
-
-Related agent task |Package
----|:---
-Inventory| [glpi-agent_1.12-git01ceeb38_all.deb](glpi-agent_1.12-git01ceeb38_all.deb)
-NetInventory | [glpi-agent-task-network_1.12-git01ceeb38_all.deb](glpi-agent-task-network_1.12-git01ceeb38_all.deb)
-ESX | [glpi-agent-task-esx_1.12-git01ceeb38_all.deb](glpi-agent-task-esx_1.12-git01ceeb38_all.deb)
-Collect | [glpi-agent-task-collect_1.12-git01ceeb38_all.deb](glpi-agent-task-collect_1.12-git01ceeb38_all.deb)
-Deploy | [glpi-agent-task-deploy_1.12-git01ceeb38_all.deb](glpi-agent-task-deploy_1.12-git01ceeb38_all.deb)
-
-### RPM packages
-
-RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.12-git01ceeb38-linux-installer.pl](glpi-agent-1.12-git01ceeb38-linux-installer.pl) when possible.
-
-Task |Packages
----|:---
-Inventory| [glpi-agent-1.12-git01ceeb38.noarch.rpm](glpi-agent-1.12-git01ceeb38.noarch.rpm)
-NetInventory | [glpi-agent-task-network-1.12-git01ceeb38.noarch.rpm](glpi-agent-task-network-1.12-git01ceeb38.noarch.rpm)
-ESX | [glpi-agent-task-esx-1.12-git01ceeb38.noarch.rpm](glpi-agent-task-esx-1.12-git01ceeb38.noarch.rpm)
-Collect | [glpi-agent-task-collect-1.12-git01ceeb38.noarch.rpm](glpi-agent-task-collect-1.12-git01ceeb38.noarch.rpm)
-Deploy | [glpi-agent-task-deploy-1.12-git01ceeb38.noarch.rpm](glpi-agent-task-deploy-1.12-git01ceeb38.noarch.rpm)
-WakeOnLan | [glpi-agent-task-wakeonlan-1.12-git01ceeb38.noarch.rpm](glpi-agent-task-wakeonlan-1.12-git01ceeb38.noarch.rpm)
-Cron | [glpi-agent-cron-1.12-git01ceeb38.noarch.rpm](glpi-agent-cron-1.12-git01ceeb38.noarch.rpm)
-
-## Sources <a href="#sources-1-12-git01ceeb38">#</a> {#sources-1-12-git01ceeb38}
-
-[GLPI-Agent-1.12-git01ceeb38.tar.gz](GLPI-Agent-1.12-git01ceeb38.tar.gz)
-
-## SHA256 sums
-All sha256 sums for released filed can be retrieved from [glpi-agent-1.12-git01ceeb38.sha256](glpi-agent-1.12-git01ceeb38.sha256).
 
 <p><a href='#content'>Back to top</a></p>
 ---
