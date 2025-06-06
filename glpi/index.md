@@ -5,7 +5,7 @@ title: GLPI Nightly Builds
 
 Version|Archive|Build date|Size
 ---|---|---|---
-main|[main-6de69a3.tar.gz](main-6de69a3.tar.gz)|2025-06-05 00:42:30 UTC|84583103
-10.0|[10.0-46e6677.tar.gz](10.0-46e6677.tar.gz)|2025-06-05 00:37:19 UTC|59782000
+main|[main-6de69a3.tar.gz](main-6de69a3.tar.gz)|2025-06-05 00:42:33 UTC|84583103
+10.0|[10.0-da1d4f5.tar.gz](10.0-da1d4f5.tar.gz)|2025-06-06 00:36:54 UTC|59779559
 
-<font size="1">Page generated on 2025-06-05 00:42:30 UTC</font>
+<font size="1">Page generated on 2025-06-06 00:36:54 UTC</font>
