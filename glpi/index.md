@@ -5,7 +5,7 @@ title: GLPI Nightly Builds
 
 Version|Archive|Build date|Size
 ---|---|---|---
-main|[main-eb96deb.tar.gz](main-eb96deb.tar.gz)|2025-06-18 00:43:30 UTC|83529547
-10.0|[10.0-2a664cf.tar.gz](10.0-2a664cf.tar.gz)|2025-06-18 00:38:35 UTC|59754873
+main|[main-eb96deb.tar.gz](main-eb96deb.tar.gz)|2025-06-18 00:43:32 UTC|83529547
+10.0|[10.0-0cc90ee.tar.gz](10.0-0cc90ee.tar.gz)|2025-06-19 00:37:50 UTC|59750306
 
-<font size="1">Page generated on 2025-06-18 00:43:30 UTC</font>
+<font size="1">Page generated on 2025-06-19 00:37:50 UTC</font>
