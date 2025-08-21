@@ -6,7 +6,7 @@ title: GLPI Nightly Builds
 Version|Archive|Build date|Size
 ---|---|---|---
 dev|[dev-a7723fc.tar.gz](dev-a7723fc.tar.gz)|2025-08-14 00:48:24 UTC|85627575
-11.0|[11.0-ed00ef8.tar.gz](11.0-ed00ef8.tar.gz)|2025-08-20 00:36:49 UTC|86217657
-10.0|[10.0-8666623.tar.gz](10.0-8666623.tar.gz)|2025-08-21 00:35:04 UTC|60105877
+11.0|[11.0-e5f2f4b.tar.gz](11.0-e5f2f4b.tar.gz)|2025-08-21 00:40:16 UTC|86265442
+10.0|[10.0-8666623.tar.gz](10.0-8666623.tar.gz)|2025-08-21 00:35:06 UTC|60105877
 
-<font size="1">Page generated on 2025-08-21 00:35:04 UTC</font>
+<font size="1">Page generated on 2025-08-21 00:40:16 UTC</font>
