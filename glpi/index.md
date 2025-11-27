@@ -6,7 +6,7 @@ title: GLPI Nightly Builds
 Version|Archive|Build date|Size
 ---|---|---|---
 dev|[dev-e67b300.tar.gz](dev-e67b300.tar.gz)|2025-11-21 00:47:49 UTC|86184013
-11.0|[11.0-533fa98.tar.gz](11.0-533fa98.tar.gz)|2025-11-26 00:38:45 UTC|88948179
-10.0|[10.0-74495d1.tar.gz](10.0-74495d1.tar.gz)|2025-11-25 00:36:22 UTC|60892657
+11.0|[11.0-533fa98.tar.gz](11.0-533fa98.tar.gz)|2025-11-26 00:38:48 UTC|88948179
+10.0|[10.0-bec73d3.tar.gz](10.0-bec73d3.tar.gz)|2025-11-27 00:37:21 UTC|60902695
 
-<font size="1">Page generated on 2025-11-26 00:38:45 UTC</font>
+<font size="1">Page generated on 2025-11-27 00:37:21 UTC</font>
