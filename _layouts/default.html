@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/nightly.css' | absolute_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | absolute_url }}">
+  </head>
+  <body>
+
+    <header class="page-header" role="banner" style="padding:1rem">
+      <h1 class="project-name">{{ page.title }}</h1>
+      {% if page.dir == "/glpi-agent/" %}
+        <ul>
+          <li><a href="..">Home</a></li>
+          <li><a href="https://github.com/glpi-project/glpi-agent/">Project</a></li>
+          <li><a href="https://glpi-agent.readthedocs.io/">Documentation</a></li>
+        </ul>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {% if page.dir == "/glpi-agent/" %}
+        {% include toc.html h_max=2 html=content sanitize=true %}
+      {% endif %}
+      {{ content }}
+      {% if page.dir contains "/glpi" %}
+      <hr />
+      <footer>
+        <dl>
+          <dt><a href="..">Home</a></dt>
+        {% if page.dir == "/glpi/" %}
+          <dt><a href="{{ site.github.owner_url }}/glpi">GLPI repository</a></dt>
+          <dt><a href="../glpi-agent/">GLPI Agent nightly builds</a></dt>
+        {% elsif page.dir == "/glpi-agent/" %}
+          <dt><a href="../glpi-releases/">GLPI nightly builds</a></dt>
+          <dt><a href="{{ site.github.owner_url }}/glpi-agent">GLPI Agent repository</a></dt>
+        {% endif %}
+        </dl>
+      </footer>
+      {% endif %}
+    </main>
+  </body>
+</html>
