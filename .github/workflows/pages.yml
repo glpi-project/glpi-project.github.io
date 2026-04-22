@@ -25,8 +25,16 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Rename glpi to glpi-nightly
-        run: sudo mv ./_site/glpi ./_site/glpi-releases
+      # Workaround (2026-04-22): the /glpi/ path is permanently blocked at GitHub Pages'
+      # origin level, likely because unzipped GLPI PHP source files were accidentally
+      # pushed to that directory, causing GitHub to flag it. Disabling/re-enabling Pages
+      # and switching deployment methods had no effect. The sed rewrites the absolute
+      # hrefs that jekyll-relative-links generates before the directory is renamed.
+      # To revert: remove this step and restore links in index.md and _layouts/default.html.
+      - name: Rename glpi to glpi-releases
+        run: |
+          sudo sed -i 's|href="/glpi/|href="/glpi-releases/|g' ./_site/glpi/index.html
+          sudo mv ./_site/glpi ./_site/glpi-releases
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
