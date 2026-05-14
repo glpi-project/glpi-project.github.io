@@ -5,8 +5,8 @@ title: GLPI Nightly Builds
 
 Version|Archive|Build date|Size
 ---|---|---|---
-dev|[dev-cdec042.tar.gz](dev-cdec042.tar.gz)|2026-05-12 01:07:34 UTC|95307254
-11.0|[11.0-4e911fd.tar.gz](11.0-4e911fd.tar.gz)|2026-05-14 01:12:42 UTC|96456332
+dev|[dev-2eb1fbe.tar.gz](dev-2eb1fbe.tar.gz)|2026-05-14 01:17:17 UTC|95329649
+11.0|[11.0-4e911fd.tar.gz](11.0-4e911fd.tar.gz)|2026-05-14 01:12:45 UTC|96456332
 10.0|[10.0-d990985.tar.gz](10.0-d990985.tar.gz)|2026-05-14 01:08:15 UTC|62241472
 
-<font size="1">Page generated on 2026-05-14 01:12:42 UTC</font>
+<font size="1">Page generated on 2026-05-14 01:17:17 UTC</font>
