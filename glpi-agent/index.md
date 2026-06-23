@@ -3,89 +3,89 @@ layout: default
 title: GLPI-Agent Nightly Builds
 ---
 
-# GLPI-Agent v1.18-git84641ce8 nightly build
+# GLPI-Agent v1.18-git86158610 nightly build
 
-Built on 2026-06-20 05:51:23 UTC
+Built on 2026-06-23 05:24:49 UTC
 
-## Windows <a href="#windows-1-18-git84641ce8">#</a> {#windows-1-18-git84641ce8}
+## Windows <a href="#windows-1-18-git86158610">#</a> {#windows-1-18-git86158610}
 
 Arch | Windows installer | Windows portable archive
 ---|:---|:---
-64 bits | [GLPI-Agent-1.18-git84641ce8-x64.msi](GLPI-Agent-1.18-git84641ce8-x64.msi) | [GLPI-Agent-1.18-git84641ce8-x64.zip](GLPI-Agent-1.18-git84641ce8-x64.zip)
+64 bits | [GLPI-Agent-1.18-git86158610-x64.msi](GLPI-Agent-1.18-git86158610-x64.msi) | [GLPI-Agent-1.18-git86158610-x64.zip](GLPI-Agent-1.18-git86158610-x64.zip)
 
 
-## MacOSX <a href="#macosx-1-18-git84641ce8">#</a> {#macosx-1-18-git84641ce8}
+## MacOSX <a href="#macosx-1-18-git86158610">#</a> {#macosx-1-18-git86158610}
 
 ### MacOSX - Intel
 
 Arch | Package
 ---|:---
-x86_64 | PKG: [GLPI-Agent-1.18-git84641ce8_x86_64.pkg](GLPI-Agent-1.18-git84641ce8_x86_64.pkg)
-x86_64 | DMG: [GLPI-Agent-1.18-git84641ce8_x86_64.dmg](GLPI-Agent-1.18-git84641ce8_x86_64.dmg)
+x86_64 | PKG: [GLPI-Agent-1.18-git86158610_x86_64.pkg](GLPI-Agent-1.18-git86158610_x86_64.pkg)
+x86_64 | DMG: [GLPI-Agent-1.18-git86158610_x86_64.dmg](GLPI-Agent-1.18-git86158610_x86_64.dmg)
 
 ### MacOSX - Apple Silicon
 
 Arch | Package
 ---|:---
-arm64 | PKG: [GLPI-Agent-1.18-git84641ce8_arm64.pkg](GLPI-Agent-1.18-git84641ce8_arm64.pkg)
-arm64 | DMG: [GLPI-Agent-1.18-git84641ce8_arm64.dmg](GLPI-Agent-1.18-git84641ce8_arm64.dmg)
+arm64 | PKG: [GLPI-Agent-1.18-git86158610_arm64.pkg](GLPI-Agent-1.18-git86158610_arm64.pkg)
+arm64 | DMG: [GLPI-Agent-1.18-git86158610_arm64.dmg](GLPI-Agent-1.18-git86158610_arm64.dmg)
 
-## Linux <a href="#linux-1-18-git84641ce8">#</a> {#linux-1-18-git84641ce8}
+## Linux <a href="#linux-1-18-git86158610">#</a> {#linux-1-18-git86158610}
 
 ### Linux installer
 
 Linux installer for redhat/centos/debian/ubuntu|Size
 ---|---
-[glpi-agent-1.18-git84641ce8-linux-installer.pl](glpi-agent-1.18-git84641ce8-linux-installer.pl)|~9Mb
+[glpi-agent-1.18-git86158610-linux-installer.pl](glpi-agent-1.18-git86158610-linux-installer.pl)|~9Mb
 
 <p/>
 
 Linux installer for redhat/centos/debian/ubuntu, including snap install support|Size
 ---|---
-[glpi-agent-1.18-git84641ce8-with-snap-linux-installer.pl](glpi-agent-1.18-git84641ce8-with-snap-linux-installer.pl)|~41Mb
+[glpi-agent-1.18-git86158610-with-snap-linux-installer.pl](glpi-agent-1.18-git86158610-with-snap-linux-installer.pl)|~41Mb
 
 ### Snap package for amd64
 
-[glpi-agent_1.18-git84641ce8_amd64.snap](glpi-agent_1.18-git84641ce8_amd64.snap)
+[glpi-agent_1.18-git86158610_amd64.snap](glpi-agent_1.18-git86158610_amd64.snap)
 
 ### AppImage Linux installer for x86-64
 
-[glpi-agent-1.18-git84641ce8-x86_64.AppImage](glpi-agent-1.18-git84641ce8-x86_64.AppImage)
+[glpi-agent-1.18-git86158610-x86_64.AppImage](glpi-agent-1.18-git86158610-x86_64.AppImage)
 
 ### Debian/Ubuntu packages
 
-Better use [glpi-agent-1.18-git84641ce8-linux-installer.pl](glpi-agent-1.18-git84641ce8-linux-installer.pl) when possible.
+Better use [glpi-agent-1.18-git86158610-linux-installer.pl](glpi-agent-1.18-git86158610-linux-installer.pl) when possible.
 
 Related agent task |Package
 ---|:---
-Inventory| [glpi-agent_1.18-git84641ce8_all.deb](glpi-agent_1.18-git84641ce8_all.deb)
-NetInventory | [glpi-agent-task-network_1.18-git84641ce8_all.deb](glpi-agent-task-network_1.18-git84641ce8_all.deb)
-ESX | [glpi-agent-task-esx_1.18-git84641ce8_all.deb](glpi-agent-task-esx_1.18-git84641ce8_all.deb)
-Collect | [glpi-agent-task-collect_1.18-git84641ce8_all.deb](glpi-agent-task-collect_1.18-git84641ce8_all.deb)
-Deploy | [glpi-agent-task-deploy_1.18-git84641ce8_all.deb](glpi-agent-task-deploy_1.18-git84641ce8_all.deb)
-IEC61850 | [libiec61850-glpi-agent_1.18-git84641ce8_amd64.deb](libiec61850-glpi-agent_1.18-git84641ce8_amd64.deb)
+Inventory| [glpi-agent_1.18-git86158610_all.deb](glpi-agent_1.18-git86158610_all.deb)
+NetInventory | [glpi-agent-task-network_1.18-git86158610_all.deb](glpi-agent-task-network_1.18-git86158610_all.deb)
+ESX | [glpi-agent-task-esx_1.18-git86158610_all.deb](glpi-agent-task-esx_1.18-git86158610_all.deb)
+Collect | [glpi-agent-task-collect_1.18-git86158610_all.deb](glpi-agent-task-collect_1.18-git86158610_all.deb)
+Deploy | [glpi-agent-task-deploy_1.18-git86158610_all.deb](glpi-agent-task-deploy_1.18-git86158610_all.deb)
+IEC61850 | [libiec61850-glpi-agent_1.18-git86158610_amd64.deb](libiec61850-glpi-agent_1.18-git86158610_amd64.deb)
 
 ### RPM packages
 
-RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.18-git84641ce8-linux-installer.pl](glpi-agent-1.18-git84641ce8-linux-installer.pl) when possible.
+RPM packages are arch independents and installation may require some repository setups, better use [glpi-agent-1.18-git86158610-linux-installer.pl](glpi-agent-1.18-git86158610-linux-installer.pl) when possible.
 
 Task |Packages
 ---|:---
-Inventory| [glpi-agent-1.18-git84641ce8.noarch.rpm](glpi-agent-1.18-git84641ce8.noarch.rpm)
-NetInventory | [glpi-agent-task-network-1.18-git84641ce8.noarch.rpm](glpi-agent-task-network-1.18-git84641ce8.noarch.rpm)
-ESX | [glpi-agent-task-esx-1.18-git84641ce8.noarch.rpm](glpi-agent-task-esx-1.18-git84641ce8.noarch.rpm)
-Collect | [glpi-agent-task-collect-1.18-git84641ce8.noarch.rpm](glpi-agent-task-collect-1.18-git84641ce8.noarch.rpm)
-Deploy | [glpi-agent-task-deploy-1.18-git84641ce8.noarch.rpm](glpi-agent-task-deploy-1.18-git84641ce8.noarch.rpm)
-WakeOnLan | [glpi-agent-task-wakeonlan-1.18-git84641ce8.noarch.rpm](glpi-agent-task-wakeonlan-1.18-git84641ce8.noarch.rpm)
-Cron | [glpi-agent-cron-1.18-git84641ce8.noarch.rpm](glpi-agent-cron-1.18-git84641ce8.noarch.rpm)
-IEC61850 | [glpi-agent-iec61850-1.18-git84641ce8.x86_64.rpm](glpi-agent-iec61850-1.18-git84641ce8.x86_64.rpm)
+Inventory| [glpi-agent-1.18-git86158610.noarch.rpm](glpi-agent-1.18-git86158610.noarch.rpm)
+NetInventory | [glpi-agent-task-network-1.18-git86158610.noarch.rpm](glpi-agent-task-network-1.18-git86158610.noarch.rpm)
+ESX | [glpi-agent-task-esx-1.18-git86158610.noarch.rpm](glpi-agent-task-esx-1.18-git86158610.noarch.rpm)
+Collect | [glpi-agent-task-collect-1.18-git86158610.noarch.rpm](glpi-agent-task-collect-1.18-git86158610.noarch.rpm)
+Deploy | [glpi-agent-task-deploy-1.18-git86158610.noarch.rpm](glpi-agent-task-deploy-1.18-git86158610.noarch.rpm)
+WakeOnLan | [glpi-agent-task-wakeonlan-1.18-git86158610.noarch.rpm](glpi-agent-task-wakeonlan-1.18-git86158610.noarch.rpm)
+Cron | [glpi-agent-cron-1.18-git86158610.noarch.rpm](glpi-agent-cron-1.18-git86158610.noarch.rpm)
+IEC61850 | [glpi-agent-iec61850-1.18-git86158610.x86_64.rpm](glpi-agent-iec61850-1.18-git86158610.x86_64.rpm)
 
-## Sources <a href="#sources-1-18-git84641ce8">#</a> {#sources-1-18-git84641ce8}
+## Sources <a href="#sources-1-18-git86158610">#</a> {#sources-1-18-git86158610}
 
-[GLPI-Agent-1.18-git84641ce8.tar.gz](GLPI-Agent-1.18-git84641ce8.tar.gz)
+[GLPI-Agent-1.18-git86158610.tar.gz](GLPI-Agent-1.18-git86158610.tar.gz)
 
 ## SHA256 sums
-All sha256 sums for released filed can be retrieved from [glpi-agent-1.18-git84641ce8.sha256](glpi-agent-1.18-git84641ce8.sha256).
+All sha256 sums for released filed can be retrieved from [glpi-agent-1.18-git86158610.sha256](glpi-agent-1.18-git86158610.sha256).
 
 <p><a href='#content'>Back to top</a></p>
 ---
