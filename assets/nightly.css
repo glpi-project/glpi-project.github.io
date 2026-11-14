@@ -1,0 +1,16 @@
+.page-header a {
+  color: #ffa  
+}
+.page-header ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: unset;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  padding: unset
+}
+.page-header li {
+  width: 33%;
+}
